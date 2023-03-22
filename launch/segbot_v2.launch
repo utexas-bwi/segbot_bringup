@@ -45,10 +45,10 @@
   </include>
   
   <!-- Arduino -->
-  <include file="$(find segbot_sensors)/launch/arduino/arduino.launch">
+  <!-- <include file="$(find segbot_sensors)/launch/arduino/arduino.launch">
     <arg name="port" value="/dev/arduino" />
     <arg name="tf_prefix" value="$(arg tf_prefix)" />
-  </include>
+  </include> -->
 
   <!-- Arm -->
   <group if="$(arg use_arm)">
